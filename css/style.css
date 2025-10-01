@@ -161,25 +161,10 @@ footer {
 
 .slideshow img {
   width: 100%;        /* ocupa toda a largura do container */
-  height: auto;       /* mantém a proporção */
+  height: 400px;       /* mantém a proporção */
   display: block;
   border-radius: 12px;
 }
 
-.container {
-  display: flex;
-  gap: 20px; /* Espaço entre imagem e conteúdo */
-}
-
-.foto-fixa {
-  position: sticky; /* Fixa enquanto rola */
-  top: 20px; /* Distância do topo da tela */
-  max-width: 300px; /* Ajuste do tamanho da imagem */
-  height: auto;
-}
-
-.conteudo {
-  flex: 1; /* Ocupa o restante do espaço */
-}
 
 
